@@ -4,7 +4,7 @@ setup(
     name='euro millions generator',
     version='1.0',
     packages=['setuptools, PyQt5'],
-    url='',
+    url='https://github.com/thomlinIreland/euro-millions-generator',
     license='',
     author='Tom Franklin',
     author_email='thomlin.dev@gmail.com',
