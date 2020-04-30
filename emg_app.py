@@ -9,7 +9,12 @@ from PyQt5 import QtGui
 
 
 def lotto_generator() -> str:
-    """Generate lotto numbers and lucky stars for euro millions draw"""
+    """Generate five random lotto numbers and two random lucky stars for euro millions draw
+
+       Returns:
+           str: string containing the lotto numbers and lucky stars
+
+    """
 
     lotto_numbers = set()
     lucky_stars = set()
